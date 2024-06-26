@@ -8,8 +8,6 @@ export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
-  { files: ["**/*.jsx"], languageOptions: { parserOptions: { ecmaFeatures: { jsx: true },   
-  
-  project: "./tsconfig.json"  } } },
+  { files: ["**/*.jsx"], languageOptions: { parserOptions: { ecmaFeatures: { jsx: true } }, "project": "./tsconfig.json" } },
   pluginReactConfig,
 ];
