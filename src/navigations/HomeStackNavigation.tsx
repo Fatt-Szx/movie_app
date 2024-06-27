@@ -17,6 +17,7 @@ const HomeStackNavigation = () => {
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="MovieDetail" component={MovieDetailScreen} />
+      
     </Stack.Navigator>
   );
 };
